@@ -58,7 +58,12 @@ const About = () => {
             </div>
             <p>
               I am a web developer specialized in the frontend, with the{' '}
-              <a className="textLink" href="https://reactjs.org/">
+              <a
+                className="textLink"
+                href="https://reactjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 React.js{' '}
               </a>
               and Javascript tools. I am passionate about being in a constant
@@ -67,19 +72,39 @@ const About = () => {
               with the designers in the interactions where as a whole we provide
               the best possible user experience. Also, I'm used to working with
               many design patterns on the backend, mainly in{' '}
-              <a className="textLink" href="https://firebase.google.com/">
+              <a
+                className="textLink"
+                href="https://firebase.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Firebase
               </a>
               ,{' '}
-              <a className="textLink" href="https://console.cloud.google.com/">
+              <a
+                className="textLink"
+                href="https://console.cloud.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Google Cloud Console
               </a>
               ,{' '}
-              <a className="textLink" href="https://nodejs.org/es/">
+              <a
+                className="textLink"
+                href="https://nodejs.org/es/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Node.js
               </a>{' '}
               or{' '}
-              <a className="textLink" href="https://expressjs.com/es/">
+              <a
+                className="textLink"
+                href="https://expressjs.com/es/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Express.js
               </a>
             </p>

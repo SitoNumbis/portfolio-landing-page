@@ -49,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
   },
   submit: {
     '&': {
-      backgroundColor: '#39b175',
+      backgroundColor: '#222333',
       boxShadow: 'none',
       '&:hover': {
         backgroundColor: '#6de9ab',
