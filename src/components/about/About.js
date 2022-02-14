@@ -14,24 +14,22 @@ const About = () => {
           <div className="about-text">
             <h2>Who am I?</h2>
             <p>
-              I'm Matt{' '}
+              I'm Carlos{' '}, known as Sito
               <span role="img" aria-label="lightning">
-                😄
+                🐱‍👤
               </span>{' '}
             </p>
             <p>
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              I'm a software engineer focusing on Front-End web and emerging
-              tech such as VR, AR and Blockchain.
+              I'm a software engineer focusing on Front-End web developer
             </p>
             <p>
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              You can find me working with UE5, JavaScript, React, Vue, Node,
-              Apollo and Gatsby.
+              You can find me working with JavaScript, React, Express, Node, and Firebase
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
@@ -46,7 +44,7 @@ const About = () => {
                     'learning new technologies',
                     'exercising',
                     'solving complex problems',
-                    'skiing',
+                    'music',
                     'fixing hard-to-fix bugs',
                     'trying new things',
                     'collaborating with others',

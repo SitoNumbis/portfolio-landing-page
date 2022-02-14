@@ -10,6 +10,8 @@ import Navbar from '../navbar/Navbar'
 import config from '../../config'
 import profile from '../../images/matt.png'
 import linkedin from '../../images/social/linkedin.png'
+import github from '../../images/social/github.png'
+import facebook from '../../images/social/facebook.png'
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -26,7 +28,7 @@ const Home = () => {
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
-              Hi, I'm <span className="name">Matthew Jigalin</span>.{' '}
+              Hi, I'm <span className="name">Carlos Andrés</span>.{' '}
               <span className="wave-emoji" role="img" aria-label="waving hand">
                 👋
               </span>
@@ -35,10 +37,8 @@ const Home = () => {
               <Typewriter
                 options={{
                   strings: [
-                    'I like to design things.',
                     'I love learning new tech.',
                     'I love meeting new people.',
-                    'I create unique digital experiences.',
                   ],
                   autoStart: true,
                   loop: true,
@@ -51,11 +51,26 @@ const Home = () => {
             <Bounce cascade>
               <div className="links">
                 <a
-                  href="https://www.linkedin.com/in/mjigalin/"
+                  href="https://github.com/SitoNumbis"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={linkedin} alt="Linkedin Logo" width="50px" />
+                  <img src={github} alt="Github Logo" width="40px" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/carlos-andr%C3%A9s-89556120b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={linkedin} alt="Linkedin Logo" width="40px" />
+                </a>
+
+                <a
+                  href="https://www.facebook.com/carlosandres.moragonzalez.7/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={facebook} alt="Facebook Logo" width="40px" />
                 </a>
               </div>
             </Bounce>
