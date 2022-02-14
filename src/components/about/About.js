@@ -14,7 +14,7 @@ const About = () => {
           <div className="about-text">
             <h2>Who am I?</h2>
             <p>
-              I'm Carlos{' '}, known as Sito
+              I'm Carlos , known as Sito
               <span role="img" aria-label="lightning">
                 🐱‍👤
               </span>{' '}
@@ -29,7 +29,8 @@ const About = () => {
               <span role="img" aria-label="lightning">
                 ⚡
               </span>{' '}
-              You can find me working with JavaScript, React, Express, Node, and Firebase
+              You can find me working with JavaScript, React, Express, Node, and
+              Firebase
             </p>
             <div className="typewriter">
               <p className="typewriter-start">
@@ -56,29 +57,31 @@ const About = () => {
               <p>.</p>
             </div>
             <p>
-              Since 2015 - I've spent my time seeking and learning new
-              technologies and forms of digital expression. This has led to me
-              working on some amazing world-class{' '}
-              <Link
-                className="textLink"
-                to="projects"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                projects
-              </Link>
-              , worked at some{' '}
-              <Link
-                className="textLink"
-                to="experience"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                amazing places
-              </Link>
-              , and worked with some great people.
+              I am a web developer specialized in the frontend, with the{' '}
+              <a className="textLink" href="https://reactjs.org/">
+                ReactJs
+              </a>
+              and Javascript tools. I am passionate about being in a constant
+              search for knowledge that allows me to solve different problems,
+              in addition to sharing them with other people. I can cooperate
+              with the designers in the interactions where as a whole we provide
+              the best possible user experience. Also, I'm used to working with
+              many design patterns on the backend, mainly in{' '}
+              <a className="textLink" href="https://firebase.google.com/">
+                Firebase
+              </a>
+              ,{' '}
+              <a className="textLink" href="https://console.cloud.google.com/">
+                Google Cloud Console
+              </a>
+              ,{' '}
+              <a className="textLink" href="https://nodejs.org/es/">
+                NodeJs
+              </a>{' '}
+              or
+              <a className="textLink" href="https://expressjs.com/es/">
+                Express
+              </a>
             </p>
             <div className="location-wrapper">
               <svg
