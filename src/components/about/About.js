@@ -78,7 +78,7 @@ const About = () => {
               <a className="textLink" href="https://nodejs.org/es/">
                 Node.js
               </a>{' '}
-              or
+              or{' '}
               <a className="textLink" href="https://expressjs.com/es/">
                 Express.js
               </a>

@@ -45,8 +45,8 @@
       ],
       "stack": ["React", "Marketing", "Design", "UI/UX"],
       "logowidth": 80,
-      "colourPrimary": "linear-gradient(to bottom, #39b175, #0be779)",
-      "colourSecondary": "linear-gradient(to bottom, #39b175, #0be779)"
+      "colourPrimary": "linear-gradient(to bottom, #39b175, #36b5ff)",
+      "colourSecondary": "linear-gradient(to bottom, #39b175, #36b5ff)"
     }
   ]
 }
