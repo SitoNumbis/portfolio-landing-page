@@ -59,9 +59,9 @@ const About = () => {
             <p>
               I am a web developer specialized in the frontend, with the{' '}
               <a className="textLink" href="https://reactjs.org/">
-                ReactJs
+                React.js
               </a>
-              and Javascript tools. I am passionate about being in a constant
+               and Javascript tools. I am passionate about being in a constant
               search for knowledge that allows me to solve different problems,
               in addition to sharing them with other people. I can cooperate
               with the designers in the interactions where as a whole we provide
@@ -76,11 +76,11 @@ const About = () => {
               </a>
               ,{' '}
               <a className="textLink" href="https://nodejs.org/es/">
-                NodeJs
+                Node.js
               </a>{' '}
               or
               <a className="textLink" href="https://expressjs.com/es/">
-                Express
+                Express.js
               </a>
             </p>
             <div className="location-wrapper">
